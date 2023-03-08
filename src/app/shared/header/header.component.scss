@@ -1,0 +1,17 @@
+nav{
+    border-radius: var(--border-radius);
+    background: var(--card-background-color);
+    box-shadow: var(--card-box-shadow);
+    padding: 1em;
+}
+
+.radius{
+    border-radius: 50%;
+    height: 50px;
+}
+
+.brand{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}

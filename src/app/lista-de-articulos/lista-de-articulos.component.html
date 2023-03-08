@@ -1,0 +1,13 @@
+<div *ngFor="let articulo of articulos">
+
+    <img
+    [src]="articulo.imagen"
+    alt="Imagen de {{ articulo.nombreArchivo }}"
+  />
+  <a  class="articulos" [routerLink]="['/articulos', articulo.nombreArchivo]">
+  <h1>{{ articulo.nombreArchivo }}</h1>
+</a>
+  <p>{{articulo.description}}</p>
+  
+
+</div>
