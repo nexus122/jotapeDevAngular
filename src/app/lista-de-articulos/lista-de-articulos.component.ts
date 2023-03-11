@@ -7,8 +7,12 @@ import { ArticulosService } from '../servicios/ArticulosService';
   styleUrls: ['./lista-de-articulos.component.scss'],
 })
 export class ListaDeArticulosComponent implements OnInit {
-  articulos: { nombreArchivo: string; imagen: string; description: string }[] =
-    [];
+  articulos: {
+    nombreArchivo: string;
+    title: string;
+    imagen: string;
+    description: string;
+  }[] = [];
   baseUrl: string = 'assets/articulos/';
   constructor(private articulosService: ArticulosService) {}
 
@@ -20,6 +24,7 @@ export class ListaDeArticulosComponent implements OnInit {
           .subscribe((metadatos: any) => {
             this.articulos.push({
               nombreArchivo,
+              title: metadatos.title,
               imagen: metadatos.image,
               description: metadatos.description,
             });

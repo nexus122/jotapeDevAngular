@@ -1,4 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
+   
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+body{
+  background-color: #73828c;
+  opacity: 0.8;
+  background: radial-gradient(circle, transparent 20%, #73828c 20%, #73828c 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #73828c 20%, #73828c 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#141e26 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #141e26 2px, #73828c 2px) -1px 0;
+  background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+  min-height: 100vh;
+}
+
+// Colores
+/* Pink Light scheme (Default) */
+/* Can be forced with data-theme="light" */
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+  --primary: #5e35b1!important;
+  --primary-hover: #c2185b;
+  --primary-focus: rgba(216, 27, 96, 0.125);
+  --primary-inverse: #FFF;
+}
+
+/* Pink Dark scheme (Auto) */
+/* Automatically enabled if user has Dark mode enabled */
+@media only screen and (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
     --primary: #5e35b1!important;
+    --primary-hover: #e91e63;
+    --primary-focus: rgba(216, 27, 96, 0.25);
+    --primary-inverse: #FFF;
   }
+}
+
+/* Pink Dark scheme (Forced) */
+/* Enabled if forced with data-theme="dark" */
+[data-theme="dark"] {
+  --primary: #5e35b1!important;
+  --primary-hover: #e91e63;
+  --primary-focus: rgba(216, 27, 96, 0.25);
+  --primary-inverse: #FFF;
+}
+
+/* Pink (Common styles) */
+:root {
+  --form-element-active-border-color: var(--primary);
+  --form-element-focus-color: var(--primary-focus);
+  --switch-color: var(--primary-inverse);
+  --switch-checked-background-color: var(--primary);
+}

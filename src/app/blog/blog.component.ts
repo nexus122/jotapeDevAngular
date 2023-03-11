@@ -8,17 +8,24 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./blog.component.scss'],
 })
 export class BlogComponent implements OnInit {
+  private id: string | null;
+  private markdownPath: string;
+  private cleanMetadata = (data: string) => data.split('---')[2];
+
   markdownContent: string = '';
 
-  constructor(private route: ActivatedRoute, private http: HttpClient) {}
+  constructor(private route: ActivatedRoute, private http: HttpClient) {
+    this.id = this.route.snapshot.paramMap.get('id');
+    this.markdownPath = this.route.snapshot.data['markdownPath'];
+  }
 
   ngOnInit() {
-    const id = this.route.snapshot.paramMap.get('id');
-    const markdownPath = this.route.snapshot.data['markdownPath'];
-    const url = `${markdownPath}/${id}`;
+    const url = `${this.markdownPath}/${this.id}`;
 
     this.http
       .get(url, { responseType: 'text' })
-      .subscribe((data) => (this.markdownContent = data));
+      .subscribe(
+        (data: string) => (this.markdownContent = this.cleanMetadata(data))
+      );
   }
 }
