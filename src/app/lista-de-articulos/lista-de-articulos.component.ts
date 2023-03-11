@@ -10,6 +10,7 @@ export class ListaDeArticulosComponent implements OnInit {
   articulos: {
     nombreArchivo: string;
     title: string;
+    date: string;
     imagen: string;
     description: string;
   }[] = [];
@@ -25,6 +26,7 @@ export class ListaDeArticulosComponent implements OnInit {
             this.articulos.push({
               nombreArchivo,
               title: metadatos.title,
+              date: metadatos.date,
               imagen: metadatos.image,
               description: metadatos.description,
             });
