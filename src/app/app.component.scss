@@ -1,0 +1,16 @@
+.buttonUp{
+    border-radius: 50% !important;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: var(--primary);
+    border: 0px;
+    color: white;
+    z-index: 2;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 0.5em;
+    cursor: pointer;
+}
