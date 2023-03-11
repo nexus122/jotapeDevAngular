@@ -2,6 +2,7 @@
 title: Como Jugar a Dwarf Fortress Old
 description: Guia basica para tu primera partida.
 image: https://cdn.akamai.steamstatic.com/steam/apps/975370/capsule_616x353.jpg?t=1670966411
+date: 11/03/2023
 ---
 ## Donde descargar **Dwarf Fortress**.
 
@@ -14,7 +15,7 @@ Para descargar el juego puedes hacerlo desde la web oficial: [aquí](https://ww
 Pero la mejor opción es descargarlo con un launcher, que nos permite **«mejorar» los gráficos** y unas cuantas herramientas que nos van a venir muy bien mas adelante es esta: [aquí](http://dffd.bay12games.com/download.php?id=7622&f=Dwarf+Fortress+40_24+Starter+Pack+r10.zip)
 
 <p align="center">
-  <img width="460" height="300" src="https://cdn.akamai.steamstatic.com/steam/apps/975370/capsule_616x353.jpg?t=1670966411">
+  <img width="100%" src="https://cdn.akamai.steamstatic.com/steam/apps/975370/capsule_616x353.jpg?t=1670966411">
 </p>
 
 ## Arrancamos
@@ -25,7 +26,9 @@ Una vez descomprimido todo iniciamos el **Starter Pack Launcher (PyLNP).exe**
 
 El lazis Newb Pack tiene muchas opciones de configuracion, que miraremos mas adelante, lo importante es empezar nuestra partida y para ello pulsaremos sobre **Play Dwarf Fortress!**
 
-![https://pandemoniumsingluten.com/wp-content/uploads/2021/02/image-2.png](https://pandemoniumsingluten.com/wp-content/uploads/2021/02/image-2.png)
+<p align="center">
+<img src="https://pandemoniumsingluten.com/wp-content/uploads/2021/02/image-2.png"/>
+<p/>
 
 Ahora ya tenemos abierto el juego! hasta ahora todo normal, nos encontraremos con esta ventana
 
@@ -75,7 +78,10 @@ Esto nos va a llevar un rato, ante nuestros ojos se esta creando un mundo entero
 
 Información sobre el mundo
 
-![https://pandemoniumsingluten.com/wp-content/uploads/2021/02/image-7.png](https://pandemoniumsingluten.com/wp-content/uploads/2021/02/image-7.png)
+<p align="center">
+<img src="https://pandemoniumsingluten.com/wp-content/uploads/2021/02/image-7.png"/>
+<p/>
+
 
 Aqui podemos ver los procesos que se han hecho para crear el mundo, la «era» en la que estamos, la edad del mundo, los muertos y los eventos.
 
@@ -121,15 +127,22 @@ A la derecha podemos observar la información del punto donde este nuestra X, no
 
 Hay que intentar que no tenga ningún **aquifer** porque puede convertir cualquier fortaleza enana en un infierno subacuático, y créeme, tus enanos no tienen branquias.
 
-![https://pandemoniumsingluten.com/wp-content/uploads/2021/02/image-13.png](https://pandemoniumsingluten.com/wp-content/uploads/2021/02/image-13.png)
+<p align="center">
+<img src="https://pandemoniumsingluten.com/wp-content/uploads/2021/02/image-13.png"/>
+<p/>
 
 ### Mapa local
 
 Cuando encontremos alguno que nos guste tenemos que tener en cuenta el otro elemento en pantalla, el mapa local
+<div style="display:flex; justify-content: center; gap:1em">
+  <p align="center">
+  <img src="https://pandemoniumsingluten.com/wp-content/uploads/2021/02/image-14.png"/>
+  <p/>
 
-![https://pandemoniumsingluten.com/wp-content/uploads/2021/02/image-14.png](https://pandemoniumsingluten.com/wp-content/uploads/2021/02/image-14.png)
-
-![https://pandemoniumsingluten.com/wp-content/uploads/2021/02/image-15.png](https://pandemoniumsingluten.com/wp-content/uploads/2021/02/image-15.png)
+  <p align="center">
+  <img src="https://pandemoniumsingluten.com/wp-content/uploads/2021/02/image-15.png"/>
+  <p/>
+</div>
 
 Con las teclas **u/m** nos moveremos arriba y abajo, y con las teclas **h/k** a la izquierda y a la derecha, es importante que tengamos un rio en nuestro mapa para que nuestros enanos puedan beber agua, lavarse o pescar.
 

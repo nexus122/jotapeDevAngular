@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "listar": "./script.sh > src/assets/articulos/nombres.json"
   },
   "private": true,
   "dependencies": {

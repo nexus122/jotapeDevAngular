@@ -17,8 +17,8 @@ export class ListaDeArticulosComponent implements OnInit {
   constructor(private articulosService: ArticulosService) {}
 
   ngOnInit() {
-    this.articulosService.listar().subscribe((nombresArchivos) => {
-      nombresArchivos.forEach((nombreArchivo) => {
+    this.articulosService.listar().subscribe((nombresArchivos: any) => {
+      nombresArchivos.nombres.forEach((nombreArchivo: any) => {
         this.articulosService
           .obtenerMetadatos(nombreArchivo)
           .subscribe((metadatos: any) => {
